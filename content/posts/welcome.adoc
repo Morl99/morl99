@@ -1,7 +1,6 @@
 ---
 title: "Welcome"
 date: 2021-05-02
-draft: true
 author: Carsten Hoffmann
 tags:
     - "meta"
