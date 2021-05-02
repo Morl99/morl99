@@ -3,19 +3,30 @@ languageCode: en-us
 title: Carsten Hoffmann
 theme: PaperMod
 
-socialIcons:
-  - name: github
-    url: "https://github.com/Morl99"
-  - name: Twitter
-    url: "https://twitter.com/morl99"
-  - name: RsS
-    url: "index.xml"
-
 taxonomies:
   category: categories
   tag: tags
   series: series
-
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "My personal website and blog - Carsten Hoffmann"
@@ -34,3 +45,18 @@ params:
     Title: "Welcome to my Blog!"
     Content: |
       This is my personal blog. I am Carsten Hoffmann, a European Software Developer. I am interested in a lot of things around tech, naming only the most important ones: DevOps, Clean Code, Automation, Kubernetes, AWS, Modern Agile, ...
+
+  profileMode:
+    enabled: true
+    imageUrl: "profile.png" # optional
+    imageTitle: "Carsten Hoffmann" # optional
+    imageHeight: 300px
+    imageWidth: 300px
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/Morl99"
+    - name: Twitter
+      url: "https://twitter.com/morl99"
+    - name: RsS
+      url: "index.xml"
