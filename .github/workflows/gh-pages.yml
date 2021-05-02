@@ -18,6 +18,11 @@ jobs:
         with:
           hugo-version: '0.83.0'
           # extended: true
+      - name: Install ruby as a prerequisite for asciidoctor
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Setup Asciidoctor
         uses: reitzig/actions-asciidoctor@v2.0.0
       - name: Build
