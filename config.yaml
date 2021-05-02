@@ -1,0 +1,36 @@
+baseURL: 'http://example.org/'
+languageCode: en-us
+title: Carsten Hoffmann
+theme: PaperMod
+
+socialIcons:
+  - name: github
+    url: "https://github.com/Morl99"
+  - name: Twitter
+    url: "https://twitter.com/morl99"
+  - name: RsS
+    url: "index.xml"
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "My personal website and blog - Carsten Hoffmann"
+  author: Carsten Hoffmann
+
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: false
+
+  homeInfoParams:
+    Title: "Welcome to my Blog!"
+    Content: |
+      This is my personal blog. I am Carsten Hoffmann, a European Software Developer. I am interested in a lot of things around tech, naming only the most important ones: DevOps, Clean Code, Automation, Kubernetes, AWS, Modern Agile, ...

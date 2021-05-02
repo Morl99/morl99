@@ -1,0 +1,14 @@
+---
+title: "Welcome"
+date: 2021-05-02
+draft: true
+author: Carsten Hoffmann
+tags:
+    - "meta"
+---
+
+= Welcome
+
+I finally came around to create a new website. It is meant as a place to share resources, like slides from my conference talks and to share interesting thoughts mostly about technology and software development. So apart from a few static pages, most of the content will be delivered in form of blog posts. If you want to get in contact with me, the best way would be using my Twitter handle https://twitter.com/morl99[@Morl99].
+
+The website is built with Hugo and the PaperMod theme. I am deploying it to GitHub Pages, which is awesome and takes nearly no effort at all.
