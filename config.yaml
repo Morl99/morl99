@@ -1,7 +1,7 @@
 baseURL: 'https://morl99.github.io/morl99/'
 languageCode: en-us
 title: Carsten Hoffmann
-theme: PaperMod
+theme: PaperMod-restyle
 
 taxonomies:
   category: categories
