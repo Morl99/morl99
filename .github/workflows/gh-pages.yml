@@ -18,6 +18,8 @@ jobs:
         with:
           hugo-version: '0.83.0'
           # extended: true
+      - name: Setup Asciidoctor
+        uses: reitzig/actions-asciidoctor@v2.0.0
       - name: Build
         run: hugo --minify
       - name: Deploy
